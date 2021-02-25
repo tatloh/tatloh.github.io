@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <title> Apple Products</title>
+        <meta name="Apple Products" content="This page will contain current populer Apple Computer Products">
+    </head>
+    <body style="background-image:url('wet_snow.png'); background-color:gainsboro;">
+        <header>
+            <h1 style="text-align: center;border: 2px solid grey;">Apple Hardware Products in 2021</h1>
+        </header>
+            <script>
+                    /*Current date script credit: 
+                    JavaScript Kit (www.javascriptkit.com)
+                    Over 200+ free scripts here!
+                    */
+                    var mydate=new Date()
+                    var year=mydate.getYear()
+                    if (year < 1000)
+                    year+=1900
+                    var day=mydate.getDay()
+                    var month=mydate.getMonth()+1
+                    if (month<10)
+                    month="0"+month
+                    var daym=mydate.getDate()
+                    if (daym<10)
+                    daym="0"+daym
+                    document.write("<small><font color='000000' face='Arial'><b>"+month+"/"+daym+"/"+year+"</b></font></small>")
+                </script>
+                    <p style="text-align: left;font-family: sans-serif; font-size:small">This free script provided by<br>
+                    <span style="font-family: sans-serif;font-size: small;"><a href="http://javascriptkit.com">JavaScript
+                        Kit</a></span></p>
+                        <p style="text-align: left;font-size: small;">I chose this script to display the current date from javascript kit. The script will display the current date in format of "05/11/98"</p>
+        <section>
+                <h2 style="text-align: right; font-style: italic;">Apple iPad Products</h2>
+            <article>
+                <h3 style="text-align: left">Apple iPads</h3>
+                    <p><span style="font-size: xx-large;font-weight: bold;">C</span>urrently, Apple has 4 iPad models in there lineup. The iPad, iPad Air, iPad mini, and the iPad Pro.</p>
+                    <p><span style="font-size: xx-large;font-weight: bold;">T</span>he iPad models have had many versions. The current latest versions are iPad 8th gen, iPad Air 4th gen, iPad Mini 5th gen, and iPad Pro 12.9 4th gen / iPad Pro 11 2nd gen. 
+            </article>
+        </section>     
+        <footer style="background-image: url('wallpaper.jpeg');background-repeat: repeat-x;background-position: top;border: 2px solid blue;">
+            <p>Created By First Name</p>
+            <p>Last Name</p>
+            <p>Company Name</p>
+            <p>Company Address</p>
+            <p>Copyright of Amazing Desserts &copy; 2021</p>
+        
+        </footer>
+    </body>
+</html>
